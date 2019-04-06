@@ -13,6 +13,6 @@ public class SampleCron {
 	      SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS");
 	      Date now = new Date();
 	      String strDate = sdf.format(now);
-	      System.out.println("Fixed Rate scheduler:: " + strDate);
+//	      System.out.println("Fixed Rate scheduler:: " + strDate);
 	   }
 }
